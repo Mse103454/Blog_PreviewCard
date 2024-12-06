@@ -1,0 +1,28 @@
+* {margin: 0; padding: 0; box-sizing: border-box; text-decoration: none;}
+
+body {background-color: hsl(47, 88%, 63%); font-family: "Figtree", sans-serif; display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;}
+
+.blog_box{background-color: hsl(0, 0%, 100%); max-width: 400px; border-radius: 5%; border: 1px solid black; box-shadow: 10px 10px 0px 0px; padding: 20px; }
+
+.blog_photo {display: flex; justify-content: center; }
+
+.blog_photo >img {border-radius: 5%; width: 100%;}
+
+.learning{background-color: hsl(47, 88%, 63%); width: 90px; height: 33px; margin-top: 25px; text-align: center; border-radius: 6%; display: flex; justify-content: center;}
+
+.blog_box .learning >p {margin-top: 5px; font-weight: 800; font-size: 16px;}
+
+.publish {margin-top: 20px; font-weight: 600;}
+
+.head{margin-top: 25px; font-weight: 800; font-size: x-large;}
+
+.head >a{color: black;}
+
+.head >a:hover{color: hsl(47, 88%, 63%); cursor: pointer; }
+
+.index{color: hsl(0, 0%, 42%); margin-top: 20px; line-height: 20px; font-weight: 500; padding-right: 10px;}
+
+.profile{display: flex; justify-content: left; text-align: center; align-items: center; column-gap: 20px; margin-top: 15px; font-weight: 800;}
+
+.profile .profile_photo >img{width: 50px;}
+
